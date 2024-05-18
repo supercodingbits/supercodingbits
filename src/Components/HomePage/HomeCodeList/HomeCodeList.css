@@ -1,0 +1,93 @@
+.study{
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    width: 1449px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.study-card{
+    letter-spacing: 1px;
+    position: relative;
+    width: 1250px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid #4070f41c;
+}
+.card-subject{
+    position: relative;
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+    align-content: center;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1000;
+    background: #fff;
+    box-shadow: 0px 8px 12px rgba(2,30,84,.06);
+}
+.card-subject:hover{
+    transition: all .1s ease-out;
+    transform: scale(1.08)
+}
+.card-subject .CodeLink{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(79, 78, 78);
+}
+.details{
+    padding: 10px;
+}
+.details h3{
+    font-size: 15px;
+    font-weight: 600;
+}
+.titlebars{
+    padding: 15px 1px;
+    width: 200px;
+    font-size: 20px;
+    background: #4070f4;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.titlebars::selection{
+    background: #fff;
+    color: #4070f4;
+}
+
+.titlebar{
+    text-align: center;
+    margin-top: 60px;
+}
+.titlebar h2, h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #4070f4;
+}
+@media (max-width: 1200px) {
+    .study{
+        width: 100%;
+    }
+}
+@media (max-width: 1200px) {
+    .study{
+        width: 100%;
+    }
+}
+@media (max-width: 900px) {
+    .study{
+        width: 100%;
+    }
+}
+@media (max-width:768px) {
+    .study{
+        width: 100%;
+    }
+}

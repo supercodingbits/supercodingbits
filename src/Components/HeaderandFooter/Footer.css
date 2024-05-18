@@ -1,0 +1,154 @@
+footer{
+    position: absolute;
+    width: 100%;
+    background: #111;
+    color: #fff;
+    margin-bottom: 0px;
+}
+.main-content{
+    display: flex;
+    margin-bottom: 0px;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.box .content{
+    margin: 20px 0 0 0;
+    position: relative;
+}
+.box .content:before{
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+}
+.box .content:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: #4070f4;
+    top: -10px;
+}
+.left .content p{
+    text-align: justify;
+}
+.center .content .fas{
+    font-size: 2.4375rem;
+    background: #1a1a1a;
+    height: 45px;
+    width: 35px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.center .content .fas:hover{
+    background: #4070f4;
+}
+.center .content .text{
+    font-size: 1.0625rem;
+    padding-left: 10px;
+}
+.center .content .email{
+    margin: 15px 0;
+}
+.center .content .social{
+    margin: 20px 0 0 0;
+} 
+.center .content .social .FooterLinks{
+    padding: 0 2px;
+}
+.center .content .social .FooterLinks .SocialMedia{
+    height: 40px;
+    width: 45px;
+    background: #1a1a1a;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 5px;
+    transition: 0.3s;
+    padding: 10px;
+}
+.center .content .social .FooterLinks .SocialMedia:hover{
+    background: #4070f4;
+}
+.right{
+    height: 45px;
+    width: 25px;
+    line-height: 30px;
+}
+.right .content .projects span .FooterLinks{
+    text-decoration: none;
+    color: #fff;
+}
+.right .content .projects span .FooterLinks:hover{
+    color: #4070f4;
+}
+.right .content .code span .FooterLinks{
+    text-decoration: none;
+    color: #fff;
+}
+.right .content .code span .FooterLinks:hover{
+    color: #4070f4;
+}
+.right .content .blog span .FooterLinks{
+    text-decoration: none;
+    color: #fff;
+}
+.right .content .blog span .FooterLinks:hover{
+    color: #4070f4;
+}
+.righttwo{
+    height: 45px;
+    width: 25px;
+    line-height: 30px;
+}
+.righttwo .content .about span .FooterLinks{
+    text-decoration: none;
+    color: #fff;
+}
+.righttwo .content .about span .FooterLinks:hover{
+    color: #4070f4;
+}
+.righttwo .content .privcy span .FooterLinks{
+    text-decoration: none;
+    color: #fff;
+}
+.righttwo .content .privcy span .FooterLinks:hover{
+    color: #4070f4;
+}
+.footer-bottom{
+    padding: 10px;
+    background: #3d545f;
+    color: #fff;
+}
+@media screen and (max-width: 900px) {
+    footer{
+      position: relative;
+      bottom: 0px;
+    }
+    .main-content{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .main-content .box{
+      margin: 5px 0;
+    }
+    .right{
+      width: 100%;
+    }
+    .righttwo{
+      width: 100%;
+    }
+}

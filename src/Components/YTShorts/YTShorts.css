@@ -1,0 +1,12 @@
+.ytshorts{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.ytshorts .sub-shorts{
+    margin: 10px;
+    border: 1px solid #4070f4;
+}
