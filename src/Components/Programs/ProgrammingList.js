@@ -54,7 +54,7 @@ const ProgrammingList = () => {
                                     <div class="Probox" key={value}>
                                         <div class="box-top">
                                             <div class="profile">
-                                                <div class="imagelist">
+                                                <div class="image">
                                                     <img src={item.ProgrammingImage} />
                                                 </div>
                                                 <div class="name">

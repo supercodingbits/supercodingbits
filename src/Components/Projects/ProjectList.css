@@ -56,14 +56,3 @@
     transition: all 0.3s ease;
 }
 
-@media (max-width: 768px){
-    .wrapper{
-        width: 98%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-    }
-    .wrapper .card{
-        width: 60%;
-    }
-}

@@ -1,5 +1,5 @@
 nav {
-    background: #4070f4;
+    background: #0082e6;
     height: 80px;
     width: 100%;
 }
@@ -40,7 +40,11 @@ nav ul li .links {
     text-decoration: none;
 }
 
-
+.links.active,
+.links:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
 
 .checkbtn {
     font-size: 30px;
@@ -55,6 +59,13 @@ nav ul li .links {
 #check {
     display: none;
 }
+
+@media (max-width: 1440px) {
+    nav{
+        width: 100%;
+    }
+}
+
 
 @media (max-width: 952px) {
     label.logo {
@@ -101,5 +112,11 @@ nav ul li .links {
 
     #check:checked~ul {
         left: 0;
+    }
+}
+
+@media (max-width: 360px) {
+    nav{
+        width: 100%;
     }
 }

@@ -4,7 +4,7 @@ import { GoArrowUpRight } from "react-icons/go";
 import Footer from '../../HeaderandFooter/Footer'
 import Header from '../../HeaderandFooter/Header'
 import FooterImage1 from '../../images/responsive-footer.png'
-import './FooterCodeList.css'
+import '../CodeList.css'
 
 const FooterCodeList = () => {
     const FooterData = [

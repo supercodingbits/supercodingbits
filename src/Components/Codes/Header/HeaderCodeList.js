@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import HeaderImage1 from '../../images/responsive-navigation-bar.jpg'
 import { GoArrowUpRight } from "react-icons/go";
 import Header from '../../HeaderandFooter/Header'
-import './HeaderCodeList.css'
 import Footer from '../../HeaderandFooter/Footer';
+import '../CodeList.css'
 
 const HeaderCodeList = () => {
     const HeaderData = [

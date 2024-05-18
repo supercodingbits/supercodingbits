@@ -6,7 +6,7 @@ import Header from '../../HeaderandFooter/Header'
 import CardImage1 from '../../images/card-blur-hover-effect.png'
 import CardImage2 from '../../images/card-hover-effect.png'
 import CardImage3 from '../../images/card-information-hover-effect.png'
-import './CardCodeList.css'
+import '../CodeList.css'
 
 const CardCodeList = () => {
     const CardData = [

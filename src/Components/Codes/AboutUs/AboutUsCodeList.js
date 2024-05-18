@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import Footer from '../../HeaderandFooter/Footer'
 import Header from '../../HeaderandFooter/Header'
 import AboutusImage1 from '../../images/about-us.png'
-import './AboutUsCodeList.css'
+import '../CodeList.css'
 
 const AboutUsCodeList = () => {
     const AboutusData = [

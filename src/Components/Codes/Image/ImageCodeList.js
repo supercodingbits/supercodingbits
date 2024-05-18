@@ -5,7 +5,7 @@ import { GoArrowUpRight } from "react-icons/go";
 import { Link } from "react-router-dom";
 import Image1 from '../../images/3d-image-rotation-yt.png'
 import Image2 from '../../images/image-accordion.png'
-import './ImageCodeList.css'
+import '../CodeList.css'
 
 const ImageCodeList = () => {
     const ImageData = [
