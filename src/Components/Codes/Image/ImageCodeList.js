@@ -27,7 +27,7 @@ const ImageCodeList = () => {
     return (
         <>
             <Header />
-            <div class="card-list" >
+            <div class="code-card-list" >
                 {
                     ImageData.map((index, values) => {
                         return (

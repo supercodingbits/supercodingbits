@@ -19,7 +19,7 @@ const HeaderCodeList = () => {
     return (
         <>
             <Header />
-            <div class="card-list" >
+            <div class="code-card-list" >
                 {
                     HeaderData.map((index, values) => {
                         return (

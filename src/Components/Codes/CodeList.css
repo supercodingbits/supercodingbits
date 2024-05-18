@@ -1,14 +1,12 @@
-.card-list {
+.code-card-list {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1250px;
     margin: 10px auto;
     padding: 20px;
 }
-.card-list .card-item {
+.code-card-list .card-item {
     background: #fff;
-    width: 30%;
     padding: 10px;
     margin: 10px;
     border-radius: 8px;
@@ -20,19 +18,19 @@
     border-top: 2px solid #4070f4;
     transition: border 0.5s ease;
 }
-.card-list .card-item:hover {
+.code-card-list .card-item:hover {
     border-top: 4px solid #000;
     border-left: 2px solid #4070f4;
     border-right: 2px solid #4070f4;
     border-bottom: 4px solid #000;
 }
-.card-list .card-item img {
+.code-card-list .card-item img {
     width: 100%;
     aspect-ratio: 16/9;
     border-radius: 8px;
     object-fit: cover;
 }
-.card-list span {
+.code-card-list span {
     display: inline-block;
     background: #ebecef;
     margin-top: 32px;
@@ -41,7 +39,7 @@
     border-radius: 50px;
     font-weight: 600;
 }
-.card-list .developer {
+.code-card-list .developer {
     background-color: #ebecef; 
     color: #4070f4;
 }   
@@ -64,53 +62,53 @@
     margin-top: 40px;
     transition: 0.2s ease;
 }
-.card-list .card-item:hover .arrow  {
+.code-card-list .card-item:hover .arrow  {
     background: #000;
     color: #fff; 
 }
 @media (max-width: 1200px) {
-    .card-list .card-item {
+    .code-card-list .card-item {
         padding: 15px;
     }
 }
 @media (max-width: 980px) {
-    .card-list {
+    .code-card-list {
         width: 100%;
         flex-direction: column;
     }
-    .card-list .card-item{
+    .code-card-list .card-item{
         width: 100%;
     }
 }
 
 @media (max-width: 768px) {
-    .card-list {
+    .code-card-list {
         width: 100%;
         flex-direction: column;
     }
-    .card-list .card-item{
+    .code-card-list .card-item{
         width: 100%;
     }
 
 }
 
 @media (max-width: 480px) {
-    .card-list {
+    .code-card-list {
         width: 100%;
         flex-direction: column;
     }
-    .card-list .card-item{
+    .code-card-list .card-item{
         width: 100%;
     }
 }
 
 
 @media (max-width: 360px) {
-    .card-list {
+    .code-card-list {
         width: 100%;
         flex-direction: column;
     }
-    .card-list .card-item{
+    .code-card-list .card-item{
         width: 100%;
     }
 }

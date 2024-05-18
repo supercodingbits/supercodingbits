@@ -19,7 +19,7 @@ const AboutUsCodeList = () => {
     return (
         <>
         <Header />
-            <div class="card-list" >
+            <div class="code-card-list" >
                 {
                     AboutusData.map((index, values) => {
                         return (

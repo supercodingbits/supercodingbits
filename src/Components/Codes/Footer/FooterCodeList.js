@@ -19,7 +19,7 @@ const FooterCodeList = () => {
     return (
         <>
             <Header />
-            <div class="card-list" >
+            <div class="code-card-list" >
                 {
                     FooterData.map((index, values) => {
                         return (

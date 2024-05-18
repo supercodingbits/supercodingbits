@@ -35,7 +35,7 @@ const CardCodeList = () => {
     return (
         <>
             <Header />
-            <div class="card-list" >
+            <div class="code-card-list" >
                 {
                     CardData.map((index, values) => {
                         return (
