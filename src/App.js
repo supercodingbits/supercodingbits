@@ -27,6 +27,7 @@ import YTShorts from './Components/YTShorts/YTShorts';
 import ContactUsCodeList from './Components/Codes/ContactUs/ContactUsCodeList';
 import ContactUs from './Components/Codes/ContactUs/ContactusDetails/ContactUs';
 import ContactTeam from './Components/about/ContactTeam';
+import ImagegalleryUsingHTMLandCSS from './Components/Codes/Image/CodeDetails/ImagegalleryUsingHTMLandCSS';
 
 
 function App() {
@@ -65,6 +66,7 @@ function App() {
           {/* Image Code List */}
           <Route path='/3d-image-rotation-using-html-and-css' element={<Image3dRotationUsingHTMLandCSS />} />
           <Route path='/image-accordion-using-html-and-css' element={<ImageAccordionUsingHTMLandCSS />} />
+          <Route path='/image-gallery-using-html-and-css' element={<ImagegalleryUsingHTMLandCSS />} />
 
 
           {/* Contact Us */}

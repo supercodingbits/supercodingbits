@@ -5,6 +5,7 @@ import { GoArrowUpRight } from "react-icons/go";
 import { Link } from "react-router-dom";
 import Image1 from '../../images/3d-image-rotation-yt.png'
 import Image2 from '../../images/image-accordion.png'
+import Image3 from '../../images/image-gallery.png'
 import '../CodeList.css'
 
 const ImageCodeList = () => {
@@ -22,6 +23,13 @@ const ImageCodeList = () => {
             Images: Image2,
             Language: 'HTML and CSS',
             Links: '/image-accordion-using-html-and-css'
+        },
+        {
+            id: "03",
+            Title: "Image Gallery Using HTML and CSS | SuperCodingBits",
+            Images: Image3,
+            Language: 'HTML and CSS',
+            Links: '/image-gallery-using-html-and-css'
         }
     ]
     return (
