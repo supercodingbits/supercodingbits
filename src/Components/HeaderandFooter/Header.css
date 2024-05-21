@@ -42,7 +42,7 @@ nav ul li .links {
 
 .links.active,
 .links:hover {
-    background: #1b9bff;
+    background: #4070f4;
     transition: .5s;
 }
 
