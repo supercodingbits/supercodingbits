@@ -11,7 +11,7 @@ const CardHoverEffectUsingHTMLandCSS = () => {
             <div className="main">
                 <div class="container">
                     <span class="titles"> Card Hover Effect </span>
-                    <div class="image">
+                    <div class="code-image">
                         <img src={CardImage2} alt="card-hover-effect.png" />
                     </div>
                     <div class="content">

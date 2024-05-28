@@ -28,6 +28,7 @@ import ContactUsCodeList from './Components/Codes/ContactUs/ContactUsCodeList';
 import ContactUs from './Components/Codes/ContactUs/ContactusDetails/ContactUs';
 import ContactTeam from './Components/about/ContactTeam';
 import ImagegalleryUsingHTMLandCSS from './Components/Codes/Image/CodeDetails/ImagegalleryUsingHTMLandCSS';
+import SimpleResponsiveFooterUsingHTMLandCSS from './Components/Codes/Footer/CodeDetails/SimpleResponsiveFooterUsingHTMLandCSS';
 
 
 function App() {
@@ -54,6 +55,8 @@ function App() {
 
           {/* Footer Code List */}
           <Route path='/responsive-footer-using-html-and-css' element={<ResponsiveFooterUsingHTMLandCSS />} />
+          <Route path='/simple-responsive-footer-using-html-and-css' element={<SimpleResponsiveFooterUsingHTMLandCSS />} />
+
           
 
 

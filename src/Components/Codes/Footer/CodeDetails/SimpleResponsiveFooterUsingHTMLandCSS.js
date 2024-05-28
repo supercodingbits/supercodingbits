@@ -1,28 +1,24 @@
 import React from 'react'
-import { Link } from "react-router-dom";
-import { FaDownload } from "react-icons/fa6";
-import RF from '../../../images/responsive-footer.png'
-import './FooterCodeDetails.css'
+import { FaDownload } from 'react-icons/fa'
 import Footer from '../../../HeaderandFooter/Footer'
 import Header from '../../../HeaderandFooter/Header'
+import SRF from '../../../images/simple-responsive-footer.png'
+import './FooterCodeDetails.css'
 
-const ResponsiveFooterUsingHTMLandCSS = () => {
+const SimpleResponsiveFooterUsingHTMLandCSS = () => {
     return (
         <>
             <Header />
             <div className="main">
                 <div class="container">
-                    <span class="titles"> Responsive Footer </span>
+                    <span class="titles"> Simple Responsive Footer </span>
                     <div class="code-image">
-                        <img src={RF} alt="responsive-navigation-bar" />
+                        <img src={SRF} alt="responsive-navigation-bar" />
                     </div>
                     <div class="content">
                         <h3>Introduction</h3>
                         <p>
-                            In today's tutorial, we'll walk through the process of designing a responsive footer using HTML and CSS.
-                            A footer is an essential element of any website as it provides important information and navigation
-                            links to users. We'll start by understanding the basic concepts of a footer and then dive into the code
-                            to create one that is easy to use, even for beginners.
+                            Creating a simple responsive footer with HTML and CSS means designing a footer that looks good and works well on all devices, from phones to computers. You start by using HTML to structure the footer with tags like footer tag. Then, you use CSS to style it, making sure it adapts to different screen sizes. This involves using techniques like media queries to change the layout for various devices, and flexbox or grid to organize the content neatly. The goal is to have a footer that is easy to read and use, no matter what device you're on.
                         </p>
                     </div>
                     <div class="content">
@@ -42,16 +38,14 @@ const ResponsiveFooterUsingHTMLandCSS = () => {
                         </p>
                         <ul>
                             <li><strong>Channel Logo and Description:</strong> This section introduces our brand and provides a brief description.</li>
-                            <li><strong>Company Name and Description:</strong> Displaying the name and a short description of our company.</li>
                             <li><strong>Related Links:</strong> Links to related content or resources.</li>
                             <li><strong>Course Providing Links:</strong> Links to courses or educational materials offered by our company.</li>
-                            <li><strong>Address:</strong> The physical address of our company.</li>
                             <li><strong>Social Media Links:</strong> Links to our social media profiles.</li>
                         </ul>
                     </div>
                     <div class="content">
                         <h3>File Structure</h3>
-                        <p>In that, You can create the one Folder that is "responsive-footer" in that folder, create 2
+                        <p>In that, You can create the one Folder that is "simple-responsive-footer" in that folder, create 2
                             different file that is:</p>
                         <ul>
                             <li>index.html</li>
@@ -63,7 +57,7 @@ const ResponsiveFooterUsingHTMLandCSS = () => {
                         <h3>Video Tutorial</h3>
                         <p>To complement this written guide, we've prepared a video tutorial that visually demonstrates each step of the process. Watch the tutorial to see the code in action and gain a deeper understanding of the concepts covered.</p>
                         <div class="video">
-                            <iframe src="https://www.youtube.com/embed/3q7M4R1ZM1Q" title="Responsive Footer Using HTML and CSS | SuperCodingBits" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/BLuTJjXYIDQ" title="Simple Responsive Footer Using HTML and CSS | SuperCodingBIts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                     </div>
 
@@ -71,13 +65,13 @@ const ResponsiveFooterUsingHTMLandCSS = () => {
                         <h3>Download</h3>
                         <p>Download the project repository and integrate it into your work.</p>
                         <div className="FooterDownloadData">
-                            <a href='https://www.patreon.com/posts/responsive-using-101771700?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link' target="_blank" class="FooterDownloadBtn"><FaDownload /> Source Code </a>
+                            <a href='https://www.patreon.com/posts/simple-footer-105109517?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link' target="_blank" class="FooterDownloadBtn"><FaDownload /> Source Code </a>
                         </div>
                         <p></p>
                     </div>
                     <div class="content">
                         <h3>Conclusion</h3>
-                        <p>In conclusion, creating a Responsive Footer is an essential skill for web developers. It not only improves user experience but also contributes to the overall aesthetics of a website.</p>
+                        <p>In conclusion, creating a Simple Responsive Footer is an essential skill for web developers. It not only improves user experience but also contributes to the overall aesthetics of a website.</p>
                     </div>
                 </div>
             </div>
@@ -86,4 +80,4 @@ const ResponsiveFooterUsingHTMLandCSS = () => {
     )
 }
 
-export default ResponsiveFooterUsingHTMLandCSS
+export default SimpleResponsiveFooterUsingHTMLandCSS

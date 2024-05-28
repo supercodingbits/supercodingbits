@@ -12,7 +12,7 @@ const CardBlurHoverEffectUsingHTMLandCSS = () => {
             <div className="main">
                 <div class="container">
                     <span class="titles"> Card Blur Hover Effect </span>
-                    <div class="image">
+                    <div class="code-image">
                         <img src={CardImage1} alt="Card Blur Hover Effect" />
                     </div>
                     <div class="content">

@@ -4,6 +4,7 @@ import { GoArrowUpRight } from "react-icons/go";
 import Footer from '../../HeaderandFooter/Footer'
 import Header from '../../HeaderandFooter/Header'
 import FooterImage1 from '../../images/responsive-footer.png'
+import FooterImage2 from '../../images/simple-responsive-footer.png'
 import '../CodeList.css'
 
 const FooterCodeList = () => {
@@ -14,6 +15,13 @@ const FooterCodeList = () => {
             Images: FooterImage1,
             Language: 'HTML and CSS',
             Links: '/responsive-footer-using-html-and-css'
+        },
+        {
+            id: "02",
+            Title: "Simple Responsive Footer Using HTML and CSS | SuperCodingBIts",
+            Images: FooterImage2,
+            Language: 'HTML and CSS',
+            Links: '/simple-responsive-footer-using-html-and-css'
         }
     ]
     return (

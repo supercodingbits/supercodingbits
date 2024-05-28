@@ -12,7 +12,7 @@ const ContactUs = () => {
             <div className="main">
                 <div class="container">
                     <span class="titles"> Contact Us </span>
-                    <div class="image">
+                    <div class="code-image">
                         <img src={ContactUsImage1} alt="Contact Us" />
                     </div>
                     <div class="content">

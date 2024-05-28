@@ -12,7 +12,7 @@ const SimpleAboutUs = () => {
             <div className="main">
                 <div class="container">
                     <span class="titles"> Simple About Us </span>
-                    <div class="image">
+                    <div class="code-image">
                         <img src={AboutusImage1} alt="Simple About Us" />
                     </div>
                     <div class="content">

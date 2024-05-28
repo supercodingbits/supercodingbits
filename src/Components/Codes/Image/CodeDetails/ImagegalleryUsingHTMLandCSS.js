@@ -12,7 +12,7 @@ const ImagegalleryUsingHTMLandCSS = () => {
             <div className="main">
                 <div class="container">
                     <span class="titles"> Image Gallery </span>
-                    <div class="image">
+                    <div class="code-image">
                         <img src={Image1} alt="Image Gallery" />
                     </div>
                     <div class="content">

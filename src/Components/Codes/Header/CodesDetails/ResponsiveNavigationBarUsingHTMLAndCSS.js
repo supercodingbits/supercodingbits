@@ -14,7 +14,7 @@ const ResponsiveNavigationBarUsingHTMLAndCSS = () => {
             <div className="main">
                 <div class="container">
                     <span class="titles"> Responsive Navigation Bar </span>
-                    <div class="image">
+                    <div class="code-image">
                         <img src={RNB} alt="responsive-navigation-bar" />
                     </div>
                     <div class="content">
