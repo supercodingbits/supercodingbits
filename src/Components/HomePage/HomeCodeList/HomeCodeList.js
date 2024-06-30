@@ -3,57 +3,111 @@ import { Link } from "react-router-dom";
 import './HomeCodeList.css'
 
 const HomeCodeList = () => {
+    const reactjs = [
+        {
+            id: 1,
+            Title: 'Header',
+            pageLink: '/headercodelist'
+        },
+        {
+            id: 2,
+            Title: 'Footer',
+            pageLink: '/footercodelist'
+        },
+        {
+            id: 3,
+            Title: 'Cards',
+            pageLink: '/cardcodelist'
+        },
+        {
+            id: 4,
+            Title: 'About Us',
+            pageLink: '/aboutuscodelist'
+        },
+        {
+            id: 5,
+            Title: 'Image',
+            pageLink: '/imagecodelist'
+        },
+        {
+            id: 6,
+            Title: 'Contact Us',
+            pageLink: '/contactuscodelist'
+        },
+    ]
+
+
+    const reactnative = [
+        {
+            id: 1,
+            Title: 'Native Header',
+            pageLink: '/headernativecodelist'
+        },
+        {
+            id: 2,
+            Title: 'Footer',
+            pageLink: '/footernativecodelist'
+        },
+        {
+            id: 3,
+            Title: 'Cards',
+            pageLink: '/cardnativecodelist'
+        },
+        {
+            id: 4,
+            Title: 'About Us',
+            pageLink: '/aboutusnativecodelist'
+        },
+        {
+            id: 5,
+            Title: 'Image',
+            pageLink: '/imagenativecodelist'
+        },
+        {
+            id: 6,
+            Title: 'Contact Us',
+            pageLink: '/contactusnativecodelist'
+        },
+    ]
     return (
         <>
             <div class="study">
-                <h2 class="titlebars"> Options </h2>
+                <h2 class="titlebars"> React Js Codes </h2>
                 <div class="study-card">
-                    <div class="card-subject">
-                        <Link className='CodeLink' to='/headercodelist'>
-                            <div class="details">
-                                <h3>Header</h3>
-                            </div>
-                        </Link>
-                    </div>
-                    <div class="card-subject">
-                        <Link className='CodeLink' to='/footercodelist'>
-                            <div class="details">
-                                <h3>Footer</h3>
-                            </div>
-                        </Link>
-                    </div>
-                    <div class="card-subject">
-                        <Link className='CodeLink' to='/cardcodelist'>
-                            <div class="details">
-                                <h3>Cards</h3>
-                            </div>
-                        </Link>
-                    </div>
-                    <div class="card-subject">
-                        <Link className='CodeLink' to='aboutuscodelist'>
-                            <div class="details">
-                                <h3>About Us</h3>
-                            </div>
-                        </Link>
-                    </div>
-                    <div class="card-subject">
-                        <Link className='CodeLink' to='/imagecodelist'>
-                            <div class="details">
-                                <h3>Image</h3>
-                            </div>
-                        </Link>
-                    </div>
-                    <div class="card-subject">
-                        <Link className='CodeLink' to='/contactuscodelist'>
-                            <div class="details">
-                                <h3>Contact Us</h3>
-                            </div>
-                        </Link>
-                    </div>
-
+                    {
+                        reactjs.map((item, index) => {
+                            return (
+                                <div class="card-subject" key={index}>
+                                    <Link className='CodeLink' to={item.pageLink}>
+                                        <div class="details">
+                                            <h3>{item.Title}</h3>
+                                        </div>
+                                    </Link>
+                                </div>
+                            )
+                        })
+                    }
                 </div>
             </div>
 
+            <div class="study">
+                <h2 class="titlebars"> React Native Codes </h2>
+                <div class="study-card">
+                    {
+                        reactnative.map((item, index) => {
+                            return (
+                                <div class="card-subject" key={index}>
+                                    <Link className='CodeLink' to={item.pageLink}>
+                                        <div class="details">
+                                            <h3>{item.Title}</h3>
+                                        </div>
+                                    </Link>
+                                </div>
+                            )
+                        })
+                    }
+                </div>
+            </div>
         </>
     )
 }

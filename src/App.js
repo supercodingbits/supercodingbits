@@ -29,6 +29,8 @@ import ContactUs from './Components/Codes/ContactUs/ContactusDetails/ContactUs';
 import ContactTeam from './Components/about/ContactTeam';
 import ImagegalleryUsingHTMLandCSS from './Components/Codes/Image/CodeDetails/ImagegalleryUsingHTMLandCSS';
 import SimpleResponsiveFooterUsingHTMLandCSS from './Components/Codes/Footer/CodeDetails/SimpleResponsiveFooterUsingHTMLandCSS';
+import NativeHeaderCodeList from './Components/Reactnative/Header/NativeHeaderCodeList';
+import SimpleHeaderUsingReactNative from './Components/Reactnative/Header/CodeDetails/SimpleHeaderUsingReactNative';
 
 
 function App() {
@@ -98,6 +100,12 @@ function App() {
 
           {/* Contact */}
           <Route path='/contact-team' element={<ContactTeam />} />
+
+
+
+          {/* native */}
+          <Route path='/headernativecodelist' element={<NativeHeaderCodeList />} />
+          <Route path='/simple-header-using-react-native' element={<SimpleHeaderUsingReactNative />} />
         </Routes>
       </BrowserRouter>
     </>
