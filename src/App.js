@@ -32,6 +32,7 @@ import SimpleResponsiveFooterUsingHTMLandCSS from './Components/Codes/Footer/Cod
 import NativeHeaderCodeList from './Components/Reactnative/Header/NativeHeaderCodeList';
 import SimpleHeaderUsingReactNative from './Components/Reactnative/Header/CodeDetails/SimpleHeaderUsingReactNative';
 import Strategiesforwritinganeffectivedeveloperresume from './Components/Blog/BlogData/Strategiesforwritinganeffectivedeveloperresume'
+import PortfolioWebsites from './Components/Projects/PortfolioWebsites';
 
 function App() {
   return (
@@ -91,6 +92,7 @@ function App() {
           {/* Projects */}
           <Route path='/cprogrammingprojects' element={<CProgrammingProjects />} />
           <Route path='/javaprogrammingprojects' element={<JavaProgrammingProjects />} />
+          <Route path='/portfoliowebsites' element={<PortfolioWebsites />} />
 
 
           {/* Notes */}

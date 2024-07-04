@@ -5,6 +5,7 @@ import Header from '../HeaderandFooter/Header'
 import { FaLocationArrow } from "react-icons/fa";
 import ProjectImage1 from '../images/c-programming-projects.png'
 import ProjectImage2 from '../images/java-projects.png'
+import ProjectImage3 from '../images/portfolio.png'
 // import $ from 'jquery';
 import './ProjectList.css'
 
@@ -19,6 +20,11 @@ const ProjectList = () => {
             id: '02',
             ProjectImage: ProjectImage2,
             ProjectLink: '/javaprogrammingprojects'
+        },
+        {
+            id: '03',
+            ProjectImage: ProjectImage3,
+            ProjectLink: '/portfoliowebsites'
         }
     ]
     return (
