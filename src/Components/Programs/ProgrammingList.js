@@ -6,6 +6,7 @@ import CProgramming from '../images/c-programming-programs.png'
 import JavaProgramming from '../images/java-programming-programs.png'
 import PythonProgramming from '../images/python-programming-programs.png'
 import SQLProgramming from '../images/SQL-programming.svg'
+// import CProgrammingZipFile from './zipcodes/java-program.zip'
 import './ProgrammingList.css'
 
 const ProgrammingList = () => {
@@ -22,7 +23,7 @@ const ProgrammingList = () => {
             ProgrammingName: 'Java',
             ProgrammingImage: JavaProgramming,
             ProgrammingDetails: 'Our Java programming section presents code relevant to daily applications and optimizing performance.',
-            ProgrammingDownload: ''
+            ProgrammingDownload: 'https://drive.google.com/file/d/1vRSo-xweVDR-YF4JVoeTENuGnEdBoWuZ/view?usp=sharing'
         },
         {
             id: '03',
@@ -67,7 +68,7 @@ const ProgrammingList = () => {
                                             <p>{item.ProgrammingDetails}</p>
                                         </div>
                                         <div className="codeDownload">
-                                            <Link to={item.ProgrammingDownload} className="DownloadCode">Download</Link>
+                                            <Link to={item.ProgrammingDownload} className="DownloadCode" target="_blank">Download</Link>
                                         </div>
                                     </div>
                                 </>

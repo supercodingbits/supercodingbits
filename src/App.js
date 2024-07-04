@@ -31,7 +31,7 @@ import ImagegalleryUsingHTMLandCSS from './Components/Codes/Image/CodeDetails/Im
 import SimpleResponsiveFooterUsingHTMLandCSS from './Components/Codes/Footer/CodeDetails/SimpleResponsiveFooterUsingHTMLandCSS';
 import NativeHeaderCodeList from './Components/Reactnative/Header/NativeHeaderCodeList';
 import SimpleHeaderUsingReactNative from './Components/Reactnative/Header/CodeDetails/SimpleHeaderUsingReactNative';
-
+import Strategiesforwritinganeffectivedeveloperresume from './Components/Blog/BlogData/Strategiesforwritinganeffectivedeveloperresume'
 
 function App() {
   return (
@@ -80,6 +80,8 @@ function App() {
 
           {/* Blog */}
           <Route path='/installation-guide-for-android-studio' element={<InstallationGuideforAndroidStudio />} />
+          <Route path='/strategies-for-writing-an-effective-developer-resume' element={<Strategiesforwritinganeffectivedeveloperresume />} />
+
 
 
           {/* About Us */}

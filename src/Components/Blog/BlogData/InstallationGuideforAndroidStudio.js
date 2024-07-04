@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../../HeaderandFooter/Footer'
 import Header from '../../HeaderandFooter/Header'
 import BlogImage1 from '../../images/installation-guide-for-android-studio.png'
+import './BlogDetails.css'
 
 const InstallationGuideforAndroidStudio = () => {
     return (
@@ -9,8 +10,8 @@ const InstallationGuideforAndroidStudio = () => {
             <Header />
             <div className="main">
                 <div class="container">
-                    <span class="titles"> Card Blur Hover Effect </span>
-                    <div class="image">
+                    <span class="titles"> Installation Guide for Android Studio </span>
+                    <div class="blogimage">
                         <img src={BlogImage1} alt="responsive-navigation-bar" />
                     </div>
                     <div class="content">
