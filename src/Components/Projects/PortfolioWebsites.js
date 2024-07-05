@@ -11,7 +11,7 @@ const PortfolioWebsites = () => {
       PortfolioTitle: 'Simple Portfolio',
       PortfolioDesc: "Welcome! This portfolio is here to help you see if I might be a good fit for your needs. Take a look at my skills and experience. While I can't work with everyone, I'm always open to exploring new opportunities!",
       PortfolioDownload: 'https://drive.google.com/file/d/1lOD65VSjOLtfPuv59U84NGAsXZF3Q0Ya/view?usp=sharing',
-      PortfolioVideoWatch: 'https://www.youtube.com/embed/kfXy4W0aD40',
+      PortfolioVideoWatch: 'https://www.youtube.com/embed/wDPrDlE_Srw',
       PortfolioImage: SimplePortfolio
     },
   ]
