@@ -35,6 +35,9 @@
     justify-content: space-around;
     align-items: center;
 }
+.listPortfolioProjects h4{
+    padding-bottom: 10px;
+}
 .Btns a{
     background: #4070f4;
     color: #fff;
