@@ -75,56 +75,6 @@ const ProgrammingList = () => {
                             )
                         })
                     }
-
-                    {/* <div class="Probox">
-                        <div class="box-top">
-                            <div class="profile">
-                                <div class="image">
-                                    <img src={CProgramming} />
-                                </div>
-                                <div class="name">
-                                    <strong>Java</strong>
-                                    <span>@clientname</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="client-comment">
-                            <p>Our Java programming section presents code relevant to daily applications and optimizing performance.</p>
-                        </div>
-                    </div>
-                    <div class="Probox">
-                        <div class="box-top">
-                            <div class="profile">
-                                <div class="image">
-                                    <img src={CProgramming} />
-                                </div>
-                                <div class="name">
-                                    <strong>Python</strong>
-                                    <span>@clientname</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="client-comment">
-                            <p>Our Python programming section features code tailored for everyday use, facilitating understanding and boosting efficiency.</p>
-                        </div>
-
-                    </div>
-                    <div class="Probox">
-                        <div class="box-top">
-                            <div class="profile">
-                                <div class="image">
-                                    <img src={CProgramming} />
-                                </div>
-                                <div class="name">
-                                    <strong>SQL</strong>
-                                    <span>@clientname</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="client-comment">
-                            <p>Our SQL programming section offers code pertinent to daily database operations, and streamlining performance.</p>
-                        </div>
-                    </div> */}
                 </div>
             </section>
 

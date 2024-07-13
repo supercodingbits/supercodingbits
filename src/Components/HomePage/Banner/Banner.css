@@ -12,7 +12,7 @@ section{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 45vh;
     color: #4070f4;
     min-height: 500px;
     background-size: cover;
@@ -68,10 +68,10 @@ section{
         padding: 0 23px;
     }
     .home .home-content .text-1{
-        font-size: 60px;
+        font-size: 30px;
     }
     .home .home-content .text-2{
-        font-size: 32px;
+        font-size: 22px;
     }
 }
 
