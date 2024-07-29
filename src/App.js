@@ -33,6 +33,9 @@ import NativeHeaderCodeList from './Components/Reactnative/Header/NativeHeaderCo
 import SimpleHeaderUsingReactNative from './Components/Reactnative/Header/CodeDetails/SimpleHeaderUsingReactNative';
 import Strategiesforwritinganeffectivedeveloperresume from './Components/Blog/BlogData/Strategiesforwritinganeffectivedeveloperresume'
 import PortfolioWebsites from './Components/Projects/PortfolioWebsites';
+import SimpleFooterUsingReactNative from './Components/Reactnative/Footer/CodeDetails/SimpleFooterUsingReactNative';
+import NativeFooterCodeList from './Components/Reactnative/Footer/NativeFooterCodeList';
+import UnderConstruction from './Components/UnderConstruction/UnderConstruction';
 
 function App() {
   return (
@@ -109,7 +112,13 @@ function App() {
 
           {/* native */}
           <Route path='/headernativecodelist' element={<NativeHeaderCodeList />} />
+          <Route path='/footernativecodelist' element={<NativeFooterCodeList />} />
           <Route path='/simple-header-using-react-native' element={<SimpleHeaderUsingReactNative />} />
+          <Route path='/simple-footer-using-react-native' element={<SimpleFooterUsingReactNative />} />
+
+
+          <Route path='/underconstruction' element={<UnderConstruction />} />
+
         </Routes>
       </BrowserRouter>
     </>

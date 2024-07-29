@@ -2,10 +2,13 @@ import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import HTML from '../../images/html.png'
 import ReactJs from '../../images/reactjs.png'
-import PythonProgramming from '../../images/python-programming-programs.png'
+import Java from '../../images/java.png'
 import SQLProgramming from '../../images/SQL-programming.svg'
+import CSS from '../../images/css.png'
 import HTMLCheatSheetPDF from './pdf/htmlcheatsheet.pdf'
 import ReactJSCheatSheetPDF from './pdf/reactjscheatsheet.pdf'
+import JavaCheatSheetPDF from './pdf/javacheatsheet.pdf'
+import CSSCheatSheetPDF from './pdf/csscheatsheet.pdf'
 import './cheatsheets.css'
 
 const Cheatsheets = () => {
@@ -21,12 +24,29 @@ const Cheatsheets = () => {
         },
         {
             id: '02',
+            ProgrammingName: 'CSS',
+            ProgrammingImage: CSS,
+            ProgrammingDetails: 'A comprehensive CSS cheatsheet covering everything from basic syntax to advanced properties for efficient web development.',
+            ProgrammingDownload: CSSCheatSheetPDF,
+            ProgrammPrview: CSSCheatSheetPDF
+        },
+        {
+            id: '03',
             ProgrammingName: 'React JS',
             ProgrammingImage: ReactJs,
             ProgrammingDetails: 'A React JS cheatsheet provides quick reference to key concepts, components, hooks, lifecycle methods of React development.',
             ProgrammingDownload: ReactJSCheatSheetPDF,
             ProgrammPrview: ReactJSCheatSheetPDF
-        }
+        },
+        {
+            id: '04',
+            ProgrammingName: 'Java',
+            ProgrammingImage: Java,
+            ProgrammingDetails: 'Java is a high-level, object-oriented programming language used for building robust applications.',
+            ProgrammingDownload: JavaCheatSheetPDF,
+            ProgrammPrview: JavaCheatSheetPDF
+        },
+
     ]
 
     const handleWatchPdf = (PdfUrl) => {

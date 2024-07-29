@@ -31,6 +31,7 @@
 }
 .cheatsheetProbox{
     width: 500px;
+    height: 200px;
     box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
     background-color: #ffffff;
     padding: 20px;
@@ -73,6 +74,7 @@
 }
 .cheatsheet-client-comment{
     margin-bottom: 10px;
+    height: 70px;
 }
 .cheatsheet-client-comment p{
     font-size: 0.9rem;

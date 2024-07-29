@@ -45,28 +45,28 @@ const HomeCodeList = () => {
         },
         {
             id: 2,
-            Title: 'Footer',
+            Title: 'Native Footer',
             pageLink: '/footernativecodelist'
         },
         {
             id: 3,
             Title: 'Cards',
-            pageLink: '/cardnativecodelist'
+            pageLink: '/underconstruction'
         },
         {
             id: 4,
             Title: 'About Us',
-            pageLink: '/aboutusnativecodelist'
+            pageLink: '/underconstruction'
         },
         {
             id: 5,
             Title: 'Image',
-            pageLink: '/imagenativecodelist'
+            pageLink: '/underconstruction'
         },
         {
             id: 6,
             Title: 'Contact Us',
-            pageLink: '/contactusnativecodelist'
+            pageLink: '/underconstruction'
         },
     ]
     return (

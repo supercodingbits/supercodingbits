@@ -49,7 +49,7 @@ const Footer = () => {
                         <div class="social">
                             <Link className='FooterLinks' to='https://www.facebook.com/profile.php?id=61555348232229'><FaFacebookSquare className='SocialMedia' /></Link>
                             <Link className='FooterLinks' to='https://www.instagram.com/supercodingbits/'><IoLogoInstagram className='SocialMedia' /></Link>
-                            <Link className='FooterLinks' to='https://www.youtube.com/channel/UCOXPezbOxSvVyFjUx_PzpNA'><FaYoutube className='SocialMedia' /></Link>
+                            <Link className='FooterLinks' to='https://www.youtube.com/@supercodingbits'><FaYoutube className='SocialMedia' /></Link>
                         </div>
                     </div>
                 </div>

@@ -2,29 +2,27 @@ import React from 'react'
 import { FaDownload } from 'react-icons/fa'
 import Footer from '../../../HeaderandFooter/Footer'
 import Header from '../../../HeaderandFooter/Header'
-import SimpleHeader from '../../../images/simple-header-using-react-native.png'
-import './HeaderCodeDetails.css'
-
-const SimpleHeaderUsingReactNative = () => {
+import SimpleFooter from '../../../images/simple-footer-using-react-native.png'
+const SimpleFooterUsingReactNative = () => {
     return (
         <>
             <Header />
             <div className="main">
                 <div class="container">
-                    <span class="titles"> Simple Header </span>
+                    <span class="titles"> Simple Footer </span>
                     <div class="code-image">
-                        <img src={SimpleHeader} alt="Simple Header" />
+                        <img src={SimpleFooter} alt="Simple Header" />
                     </div>
                     <div class="content">
                         <h3>Introduction</h3>
                         <p>
-                            In this tutorial, you'll discover how to make cool effects when you Simple Header Using React Native. These Code make your Simple Header page in mobile application more engaging and fun for visitors. We'll guide you through each step, from basic concept of header. Whether you're new to coding or already know a bit, this tutorial will help you make your app designs more interesting. Tune in and learn how to add some flair to your application with React Native.
+                        In this tutorial, you'll discover how to create cool effects for your Simple Footer using React Native. These code snippets will make your Simple Footer page in your mobile application more engaging and fun for visitors. We'll guide you through each step, starting from the basic concept of a footer. Whether you're new to coding or already know a bit, this tutorial will help you make your app designs more interesting. Tune in and learn how to add some flair to your application with React Native.
                         </p>
                     </div>
                     <div class="content">
                         <h3>Understanding the Card Concept</h3>
                         <p>
-                            Before we dive into the code, let's understand the purpose of a Simple Header Using React Native. They are used for the displaying the company's logo and other icons because of easily access the content of the page.
+                        Before we dive into the code, let's understand the purpose of a Simple Footer using React Native. Footers are used for displaying important links, contact information, and other icons to help users easily navigate and access the content of the page.
                         </p>
                     </div>
                     <div class="content">
@@ -39,7 +37,7 @@ const SimpleHeaderUsingReactNative = () => {
                         <h3>Video Tutorial</h3>
                         <p>To complement this written guide, we've prepared a video tutorial that visually demonstrates each step of the process. Watch the tutorial to see the code in action and gain a deeper understanding of the concepts covered.</p>
                         <div class="video">
-                            <iframe src="https://www.youtube.com/embed/gY4cRgLTP1c" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/zvM_JrCm4vw" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                     </div>
 
@@ -63,4 +61,4 @@ const SimpleHeaderUsingReactNative = () => {
     )
 }
 
-export default SimpleHeaderUsingReactNative
+export default SimpleFooterUsingReactNative
