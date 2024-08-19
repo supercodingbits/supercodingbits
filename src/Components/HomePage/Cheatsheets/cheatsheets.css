@@ -1,0 +1,167 @@
+#cheatsheetcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    padding: 10px 0;
+}
+.titlebar{
+    letter-spacing: 1px;
+    margin: 10px 0px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titlebar h1{
+    font-size: 1.7rem;
+    font-weight: 500;
+    /* background-color: #202020; */
+    color: #202020;
+    padding: 10px 20px;
+}
+.cheatsheetcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+}
+.cheatsheetProbox{
+    width: 500px;
+    height: 200px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid deepskyblue;
+}
+/* .cheatsheetProbox:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+} */
+.cheatsheet-profile{
+    display: flex;
+    align-items: center;
+}
+.cheatsheet-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.cheatsheet-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.cheatsheet-name{
+    display: flex;
+    flex-direction: column;
+}
+.cheatsheet-name strong{
+    color: #3d3d3d;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.cheatsheet-name span{
+    color: #979797;
+    font-size: 0.8rem;
+}
+.cheatsheet-client-comment{
+    margin-bottom: 10px;
+    height: 70px;
+}
+.cheatsheet-client-comment p{
+    font-size: 0.9rem;
+    color: #4b4b4b;
+}
+.cheatsheet-Download a{
+    font-size: 12px;
+}
+.cheatsheetDownloadCode{
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    background: #3d3d3d;
+    border-radius: 40px;
+    margin: 10px;
+}
+
+.cheatsheet-Download button{
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    background: #3d3d3d;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.pdfpopup {
+    /* Initially hidden */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black with opacity */
+}
+
+.pdfpopup-content {
+    background-color: #fefefe;
+    margin: 3% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1000;
+}
+.pdfpopup-content iframe{
+    width: 100%;
+    height: 600px;
+}
+.pdfclose-button {
+    position: absolute;
+    top: -4%;
+    right: -4%;
+    font-size: 36px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.pdfclose-button:hover,
+.pdfclose-button:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media(max-width:790px){
+    .titlebar h1{
+        font-size: 1.4rem;
+    }
+}
+@media(max-width:340px){
+    .cheatsheet-box-top{
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+}
+::selection{
+    color: #ffffff;
+    background-color: #252525;
+}

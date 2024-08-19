@@ -1,0 +1,113 @@
+.PortfolioProjects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.PortfolioProjects .SubPortfolioProjects {
+    position: relative;
+    width: 30%;
+    height: 470px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.PortfolioProjects .SubPortfolioProjects .listPortfolioProjects {
+    margin: 10px;
+    padding: 10px;
+}
+
+.listPortfolioProjects img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.listPortfolioProjects .Btns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.listPortfolioProjects h4{
+    padding-bottom: 10px;
+}
+.Btns a{
+    background: #4070f4;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.Btns button{
+    background: #4070f4;
+    color: #fff;
+    text-decoration: none;
+    padding: 11px;
+    margin: 10px;
+    font-size: 18px;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Popup */
+/* ... your existing CSS ... */
+
+.popup {
+    /* Initially hidden */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black with opacity */
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    position: relative;
+}
+.popup-content iframe{
+    width: 100%;
+    height: 300px;
+}
+.close-button {
+    position: absolute;
+    top: -6%;
+    right: -3%;
+    font-size: 26px;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
