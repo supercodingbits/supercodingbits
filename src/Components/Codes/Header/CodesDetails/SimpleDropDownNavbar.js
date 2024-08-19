@@ -19,7 +19,7 @@ const SimpleDropDownNavbar = () => {
                     <div class="content">
                         <h3>Introduction</h3>
                         <p>
-                        Learn how to build a functional and stylish dropdown navigation bar using HTML and CSS. This tutorial will guide you through creating a basic navbar structure, styling its appearance, and implementing the dropdown functionality through CSS positioning and hover effects. Perfect for beginners looking to enhance their website's user experience.
+                            Learn how to build a functional and stylish dropdown navigation bar using HTML and CSS. This tutorial will guide you through creating a basic navbar structure, styling its appearance, and implementing the dropdown functionality through CSS positioning and hover effects. Perfect for beginners looking to enhance their website's user experience.
                         </p>
                     </div>
                     <div class="content">
@@ -46,7 +46,7 @@ const SimpleDropDownNavbar = () => {
                         <h3>Video Tutorial</h3>
                         <p>To complement this written guide, we've prepared a video tutorial that visually demonstrates each step of the process. Watch the tutorial to see the code in action and gain a deeper understanding of the concepts covered.</p>
                         <div class="video">
-                            <iframe src="https://www.youtube.com/embed/lFAkfJ20D8o" title="Responsive Navigation Bar Using HTML and CSS | SuperCodingBits" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <iframe width="866" height="487" src="https://www.youtube.com/embed/yjPOT4pXz8c" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                     </div>
 

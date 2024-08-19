@@ -36,6 +36,7 @@ import PortfolioWebsites from './Components/Projects/PortfolioWebsites';
 import SimpleFooterUsingReactNative from './Components/Reactnative/Footer/CodeDetails/SimpleFooterUsingReactNative';
 import NativeFooterCodeList from './Components/Reactnative/Footer/NativeFooterCodeList';
 import UnderConstruction from './Components/UnderConstruction/UnderConstruction';
+import SimpleDropDownNavbar from './Components/Codes/Header/CodesDetails/SimpleDropDownNavbar';
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
 
           {/* Header Code List */}
           <Route path='/responsive-navigation-bar-using-html-and-css' element={<ResponsiveNavigationBarUsingHTMLAndCSS />} />
+          <Route path='/simple-dropdown-navbar-using-html-and-css' element={<SimpleDropDownNavbar />} />
           
 
           {/* Footer Code List */}

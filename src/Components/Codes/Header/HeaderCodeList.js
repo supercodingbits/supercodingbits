@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import HeaderImage1 from '../../images/responsive-navigation-bar.jpg'
+import HeaderImage2 from '../../images/simple-dropdown-navbar.png'
 import { GoArrowUpRight } from "react-icons/go";
 import Header from '../../HeaderandFooter/Header'
 import Footer from '../../HeaderandFooter/Footer';
@@ -14,6 +15,13 @@ const HeaderCodeList = () => {
             Images: HeaderImage1,
             Language: 'HTML and CSS',
             Links: '/responsive-navigation-bar-using-html-and-css'
+        },
+        {
+            id: "02",
+            Title: "Simple DropDown Navbar Using HTML and CSS | SuperCodingBits",
+            Images: HeaderImage2,
+            Language: 'HTML and CSS',
+            Links: '/simple-dropdown-navbar-using-html-and-css'
         }
     ]
     return (
