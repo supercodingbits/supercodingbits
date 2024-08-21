@@ -5,10 +5,12 @@ import ReactJs from '../../images/reactjs.png'
 import Java from '../../images/java.png'
 import SQLProgramming from '../../images/SQL-programming.svg'
 import CSS from '../../images/css.png'
+import JavaScript from '../../images/javascript.png'
 import HTMLCheatSheetPDF from './pdf/htmlcheatsheet.pdf'
 import ReactJSCheatSheetPDF from './pdf/reactjscheatsheet.pdf'
 import JavaCheatSheetPDF from './pdf/javacheatsheet.pdf'
 import CSSCheatSheetPDF from './pdf/csscheatsheet.pdf'
+import JSCheatSheetPDF from './pdf/javascriptcheatsheet.pdf'
 import './cheatsheets.css'
 
 const Cheatsheets = () => {
@@ -45,6 +47,15 @@ const Cheatsheets = () => {
             ProgrammingDetails: 'Java is a high-level, object-oriented programming language used for building robust applications.',
             ProgrammingDownload: JavaCheatSheetPDF,
             ProgrammPrview: JavaCheatSheetPDF
+        },
+
+        {
+            id: '05',
+            ProgrammingName: 'JavaScript',
+            ProgrammingImage: JavaScript,
+            ProgrammingDetails: 'Provides a concise overview of fundamental JavaScript concepts, including variables, data types, operators, control flow, functions, and objects.',
+            ProgrammingDownload: JSCheatSheetPDF,
+            ProgrammPrview: JSCheatSheetPDF
         },
 
     ]
