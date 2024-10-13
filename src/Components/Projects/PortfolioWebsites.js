@@ -3,6 +3,7 @@ import Footer from '../HeaderandFooter/Footer';
 import Header from '../HeaderandFooter/Header';
 import SimplePortfolio from './img/simple-portfolio.png'
 import PersonalPortfolioWebsite from './img/personal-portfolio-website.png'
+import PersonalPortfolioWebsiteUsingReactjs from './img/personal-portfolio-website-using-reactjs.png'
 import './portfoliowebsite.css'
 
 const PortfolioWebsites = () => {
@@ -24,6 +25,14 @@ const PortfolioWebsites = () => {
       PortfolioDownload: 'https://www.patreon.com/posts/personal-website-107549630?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link',
       PortfolioVideoWatch: 'https://www.youtube.com/embed/92UmVtnxUPo',
       PortfolioImage: PersonalPortfolioWebsite
+    },
+    {
+      id: '2',
+      PortfolioTitle: 'Personal Portfolio Website Using React Js',
+      PortfolioDesc: "Welcome! I'm thrilled to showcase my skills and experience here. This portfolio features my expertise and previous projects. I'm eager to explore new opportunities and collaborate with others. Let's connect and see if we align!",
+      PortfolioDownload: 'https://www.patreon.com/posts/personal-website-113932500?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link',
+      PortfolioVideoWatch: 'https://www.youtube.com/embed/pzK7hQuVNWY',
+      PortfolioImage: PersonalPortfolioWebsiteUsingReactjs
     },
   ];
 

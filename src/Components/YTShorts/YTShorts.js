@@ -1,92 +1,61 @@
-import React, { useEffect, useState } from 'react'
-import Footer from '../HeaderandFooter/Footer'
-import Header from '../HeaderandFooter/Header'
-import ReactPlayer from 'react-player';
-import './YTShorts.css'
+import React, { useEffect, useState } from 'react';
+import Footer from '../HeaderandFooter/Footer';
+import Header from '../HeaderandFooter/Header';
+import './YTShorts.css';
 
+const API = 'AIzaSyAtppn2vMxoOn0h5A8qO6uMiRIrpC20OQQ';
+const playlistId = 'PL6TciGcudfdocRiOtH1T-AMkg1riQJNGa&si=Uz-9d1T_nfxY1GMx'; // Replace with your playlist ID
 
-const API = 'AIzaSyAWIKxjNvEQCK7Xspwey9JVI14lcub2jIY'
-const channelId = 'UCOXPezbOxSvVyFjUx_PzpNA'
-
-
-var fatchurl = `https://www.googleapis.com/youtube/v3/playlistItems?key=${API}&channelId=${channelId}&part=playlistId`;
 const YTShorts = () => {
-    const [allvideos, setAllvideos] = useState([])
-    useEffect(() => {
-        fetch(fatchurl).then((response) => response.json()).then((resJson) => {
-            const result = resJson.items.map(doc => (
-                {
-                    ...doc,
-                    Videolink: 'https://www.youtube.com/embed/' + doc.id.videoId
-                }));
-            setAllvideos(result)
-        });
+    const [allVideos, setAllVideos] = useState([]);
 
-    }, [])
-    console.log(allvideos);
-    // const ytshorts = [
-    //     {
-    //         id: '01',
-    //         ytshortVideo: 'https://www.youtube.com/embed/RpLzz6NbmDg'
-    //     },
-    //     {
-    //         id: '02',
-    //         ytshortVideo: 'https://www.youtube.com/embed/p2csNXci03U'
-    //     },
-    //     {
-    //         id: '03',
-    //         ytshortVideo: 'https://www.youtube.com/embed/vblkXD-36UM'
-    //     },
-    //     {
-    //         id: '04',
-    //         ytshortVideo: 'https://www.youtube.com/embed/es_DANqKC4Y'
-    //     },
-    //     {
-    //         id: '05',
-    //         ytshortVideo: 'https://www.youtube.com/embed/f6OolVw15zQ'
-    //     },
-    //     {
-    //         id: '06',
-    //         ytshortVideo: 'https://www.youtube.com/embed/q5Tu2A6KZEQ'
-    //     },
-    //     {
-    //         id: '07',
-    //         ytshortVideo: 'https://www.youtube.com/embed/5oim8b7Aq_8'
-    //     },
-    //     {
-    //         id: '08',
-    //         ytshortVideo: 'https://www.youtube.com/embed/nkeqiRuIidE'
-    //     }
-    // ]
+    useEffect(() => {
+        const fetchUrl = `https://www.googleapis.com/youtube/v3/playlistItems?key=${API}&playlistId=${playlistId}&part=snippet&maxResults=10`;
+
+        fetch(fetchUrl)
+            .then((response) => response.json())
+            .then((resJson) => {
+                if (resJson.items) {
+                    const result = resJson.items.map((item) => ({
+                        Videolink: `https://www.youtube.com/embed/${item.snippet.resourceId.videoId}`,
+                        title: item.snippet.title,
+                    }));
+                    setAllVideos(result);
+                } else {
+                    console.error('No videos found for the playlist');
+                }
+            })
+            .catch((error) => console.error('Error fetching YouTube playlist:', error));
+    }, []);
 
     return (
         <>
             <Header />
-            <div className="ytshorts">
-                {
-                    allvideos.map((item) => {
-                        return (
-                            <>
-                                <div className="sub-shorts">
-                                    <iframe width="324" height="575" src={item.Videolink} title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                </div>
-                            </>
-                        )
-                    })
-                }
-                {/* <div className="sub-shorts">
-                    <iframe width="324" height="575" src="https://www.youtube.com/embed/RpLzz6NbmDg" title="Dropdown Menu Bar using HTML and CSS | SuperCodingBits" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div className="mainytshorts">
+                <h2>Shorts</h2>
+                <div className="ytshorts">
+                    {allVideos.length > 0 ? (
+                        allVideos.map((item, index) => (
+                            <div key={index} className="sub-shorts">
+                                <iframe
+                                    width="324"
+                                    height="575"
+                                    src={item.Videolink}
+                                    title={item.title}
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
+                        ))
+                    ) : (
+                        <p>No videos found in this playlist.</p>
+                    )}
                 </div>
-                <div className="sub-shorts">
-                    <iframe width="324" height="575" src="https://www.youtube.com/embed/RpLzz6NbmDg" title="Dropdown Menu Bar using HTML and CSS | SuperCodingBits" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div className="sub-shorts">
-                    <iframe width="324" height="575" src="https://www.youtube.com/embed/RpLzz6NbmDg" title="Dropdown Menu Bar using HTML and CSS | SuperCodingBits" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div> */}
             </div>
             <Footer />
         </>
-    )
-}
+    );
+};
 
-export default YTShorts
+export default YTShorts;

@@ -18,9 +18,9 @@ const Footer = () => {
                         <div class="projects">
                             <span><Link className='FooterLinks' to='/purchesbooks'>Books Purchase</Link></span>
                         </div>
-                        {/* <div class="code">
+                        <div class="code">
                             <span><Link className='FooterLinks' to='/ytshorts'>YT Shorts</Link></span>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
                 <div class="righttwo box">

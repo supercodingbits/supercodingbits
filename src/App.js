@@ -37,6 +37,7 @@ import SimpleFooterUsingReactNative from './Components/Reactnative/Footer/CodeDe
 import NativeFooterCodeList from './Components/Reactnative/Footer/NativeFooterCodeList';
 import UnderConstruction from './Components/UnderConstruction/UnderConstruction';
 import SimpleDropDownNavbar from './Components/Codes/Header/CodesDetails/SimpleDropDownNavbar';
+import News from './Components/News/News';
 
 function App() {
   return (
@@ -120,6 +121,10 @@ function App() {
 
 
           <Route path='/underconstruction' element={<UnderConstruction />} />
+
+
+          <Route path='/news' element={<News />} />
+
 
         </Routes>
       </BrowserRouter>
